@@ -1,0 +1,78 @@
+<!--
+  Name: Alexander Seretse
+  Date: 10.19.2024
+  Section: CSE 154 AE
+
+  This is my dbzwiki page made to display various
+  dbz characters and energy attacks as well as a
+  news bulletin
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="dbzstyle.css">
+  <meta charset="UTF-8">
+  <title>Dragon Ball Wiki</title>
+</head>
+<body>
+
+<section>
+  <header>
+    <h1 class="main-header">Dragon Ball Wiki</h1>
+  </header>
+
+  <!-- News bulletin board -->
+  <div id="news-section">
+    <h1>News bulletin</h1>
+    <h2>
+      -This website constantly receives updates including the new release of the
+      Dragon Ball Daima Anime...
+    </h2>
+  </div>
+
+  <!-- Character biographies -->
+  <div id="bio-section">
+    <h2 id="bio-name">Click a character</h2>
+    <p id="bio-description">
+      The character's biography will be displayed here when you click on them.
+    </p>
+  </div>
+
+  <!-- Character Search -->
+  <input type="text" id="search-bar" placeholder="Search Characters...">
+  <ul id="character-list">
+    <li id="goku">Goku</li>
+    <li id="vegeta">Vegeta</li>
+    <li id="gohan">Gohan</li>
+    <li id="piccolo">Piccolo</li>
+    <li id="trunks">Trunks</li>
+  </ul>
+
+  <!-- Attack Search -->
+  <h1>Ki attack-list</h1>
+  <input type="text" id="search-bar-attack" placeholder="Search Attacks...">
+  <ul id="ki-attack-list">
+    <li>Kamehameha</li>
+    <li>Galick gun</li>
+    <li>Solar flare</li>
+    <li>Death beam</li>
+    <li>Revenge cannon</li>
+    <li>Masenko</li>
+  </ul>
+
+  <!-- Transformations -->
+  <h1>Transformations</h1>
+  <ul id="transformations">
+    <li>Super saiyan</li>
+    <li>Super saiyan 2</li>
+    <li>Super saiyan 3</li>
+    <li>Super saiyan god</li>
+    <li>Super saiyan blue</li>
+    <li>Ultra instinct</li>
+  </ul>
+</section>
+
+<script src="dbz.js"></script>
+
+</body>
+</html>
